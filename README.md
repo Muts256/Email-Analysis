@@ -5,8 +5,18 @@
 - <b> Email Analysis Investigation</b>
   - [Phishing Email](https://github.com/Muts256/Email-Analysis)
 
+An email phishing lab is an isolated, repeatable environment for safely ingesting, analysing, and triaging suspicious emails, links, and attachments. The lab lets you reconstruct attacker workflows, extract IOCs (URLs, domains, hashes, mail headers), run controlled detonations of links/attachments in instrumented VMs, capture network traffic, and generate enrichment and mitigations
 
+Objectives:
+ - To investigate suspicious emails.
+ - To dissect and analyze attachments and/or URLs
+ - Determine the authentication status of the email
 
+Lessons Learned
+ - Leveraging tools such as VirusTotal, Symantec to find matches in URLS and attachments.
+ - Checking the email headers for authenticity and authorisation status of SPF, DKIM, and DMARC.
+ - Using GUI email analysers like Google Toolbox to analyse email headers.
+ - Importance of Incident response procedure as described by NIST.
 
 <h2> 🤳 Connect with me:</h2>
 
